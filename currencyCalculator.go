@@ -31,14 +31,14 @@ func main() {
 	var fiveCentCoin float64
 
 	fmt.Println("Enter the number of 1-dollar coins: ")
-	fmt.Scanln(&oneDollarCoin)
+	_, _ = fmt.Scanln(&oneDollarCoin)
 	fmt.Println("Enter the number of 50-cent coins: ")
-	fmt.Scanln(&fiftyCentCoin)
+	_, _ = fmt.Scanln(&fiftyCentCoin)
 	fmt.Println("Enter the number of 20-cent coins: ")
-	fmt.Scanln(&twentyCentCoin)
+	_, _ = fmt.Scanln(&twentyCentCoin)
 	fmt.Println("Enter the number of 10-cent coins: ")
-	fmt.Scanln(&tenCentCoin)
+	_, _ = fmt.Scanln(&tenCentCoin)
 	fmt.Println("Enter the number of 5-cent coins: ")
-	fmt.Scanln(&fiveCentCoin)
+	_, _ = fmt.Scanln(&fiveCentCoin)
 	CurrencyCalculator(oneDollarCoin, fiftyCentCoin, twentyCentCoin, tenCentCoin, fiveCentCoin)
 }
